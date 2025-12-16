@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Cadastro - Usuário </title>
+        <title> Cadastro | Cliente </title>
     </head>
 
     <body>
@@ -25,10 +25,10 @@
 
                 <div class="formulario">
 
-                    <form>
+                    <form action="../actions/cadastro_cliente.php" method="POST">
 
                         <input type="text" placeholder="Nome" name="nome">
-                        <select name="nincho" required>
+                        <select name="nicho" required>
 
                             <option value="" selected disabled hidden> Nincho </option>
                             <option value="games"> Games </option>
