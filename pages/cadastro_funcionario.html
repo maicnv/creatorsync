@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Cadastro | Funcionário </title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="cabecalho">
+
+                <img src="">
+                <h1> CREATOR SYNC </h1>
+
+            </div>
+            
+        </header>
+
+        <main>
+
+            <section class="cadastro">
+
+                <div class="titulo">
+                    <h3> funcionário </h3>
+                </div>
+
+                <div class="formulario">
+
+                    <form action="../actions/cadastro_funcionario.php" method="POST">
+
+                        <input type="text" placeholder="Nome" name="nome" required>
+                        <select name="funcao" required>
+
+                            <option value="" selected disabled hidden> Função </option>
+                            <option value="editor"> Editor </option>
+                            <option value="roteirista"> Roteirista  </option>
+                            <option value="ambos"> Ambos </option>
+
+                        </select>
+                        <input type="email" placeholder="E-mail" name="email" required>
+                        <input type="tel" placeholder="Telefone" name="telefone" required>
+                        <input type="text" placeholder="Especialidade" name="especialidade" required>
+    
+
+                        <div class="botoes">
+                            
+                            <button type="submit">  CADASTRAR </button>
+                            <button type="reset"> LIMPAR </button>
+
+                        </div>
+
+                    </form>
+
+
+                </div>
+                
+            </section>
+
+        </main>
+        
+    </body>
+
+</html>
