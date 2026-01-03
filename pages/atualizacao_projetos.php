@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Cadastro | Projetos </title>
+        <title> Atualização | Projetos </title>
     </head>
 
     <body>
@@ -21,7 +21,7 @@
 
         <main>
 
-            <section class="cadastro">
+            <section class="atualizacao">
 
                 <div class="titulo">
                     <h3> projetos </h3>
@@ -29,11 +29,11 @@
 
                 <div class="formulario">
 
-                    <form action="../actions/cadastrando_projeto.php" method="POST">
+                    <form action="../actions/atualizar_projeto.php" method="POST">
 
-                        <select name="pedido" required>
+                        <select name="projeto" required>
 
-                            <option value="" selected disabled hidden> Pedido </option>
+                            <option value="" selected disabled hidden> Projeto </option>
                             <option value=""> X </option>
                             <option value=""> Y </option>
                             <option value=""> Z </option>
@@ -43,31 +43,15 @@
                         <input type="text" placeholder="Título" name="titulo" required readonly> 
                         <input type="text" placeholder="Descrição" name="descricao" required readonly>
 
-                        <select name="editor" required>
-
-                            <option value="" selected disabled hidden> Editor </option>
-                            <option value=""> A </option>
-                            <option value=""> B </option>
-                            <option value=""> C </option>
-
-                        </select>
-
-                        <select name="roteirista" required>
-
-                            <option value="" selected disabled hidden> Roteirista </option>
-                            <option value=""> A </option>
-                            <option value=""> B </option>
-                            <option value=""> C </option>
-
-                        </select>
-
-                        <input type="date" name="inicio" required>
-                        <input type="date"  name="previsao" required>
+                        <input type="text" placeholder="Edição" name="edicao" required>
+                        <input type="text" placeholder="Roteiro" name="roteiro" required>
+                        <input type="text" placeholder="Caminho" name="caminho" required>
+                        <input type="date" name="entrega" required>
     
 
                         <div class="botoes">
                             
-                            <button type="submit">  CADASTRAR </button>
+                            <button type="submit">  ATUALIZAR </button>
                             <button type="reset"> LIMPAR </button>
 
                         </div>
