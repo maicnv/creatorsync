@@ -4,6 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="..\css\style_cadastro_cliente.css">
+        <link rel="shortcut icon" href="../imgs/keyframe_logo_a.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
         <title> Cadastro | Cliente </title>
     </head>
 
@@ -11,10 +14,7 @@
 
         <header>
             <div class="cabecalho">
-
-                <img src="">
-                <h1> CREATOR SYNC </h1>
-
+                <h1> CREATOR <span id="2"><i>SYNC</i></span> </h1>
             </div>
             
         </header>
@@ -23,9 +23,14 @@
 
             <section class="cadastro">
 
+
                 <div class="formulario">
+                    <div class="titulo"> 
+                        <p> <i> cadastro. </i> </p>
+                    </div>
 
                     <form action="../actions/cadastro_cliente.php" method="POST">
+
 
                         <input type="text" placeholder="Nome" name="nome" required>
                         <select name="nicho" required>
@@ -39,13 +44,17 @@
                             <option value="outro"> Outro </option>
 
                         </select>
+
+
+                
                         <input type="tel" placeholder="Telefone" name="telefone" required>
                         <input type="email" placeholder="E-mail" name="email" required>
+
                         <input type="password" placeholder="Senha" name="senha" required>
                         <input type="password" placeholder="Confirmar Senha" name="confirmar_senha" required>
 
                         <div class="botoes">
-                            
+                                
                             <button type="submit">  CADASTRAR </button>
                             <button type="reset"> LIMPAR </button>
 
@@ -53,8 +62,14 @@
 
                     </form>
 
+                    <div class="logos">
+                        <a href="../pages/landingpage_creatorsync.html" target="_blank"><img src="../imgs/keyframe_logo_a.png"></a>
+                        <img src="../imgs/creatorsync_logo_a.png">
+                    </div>
+
 
                 </div>
+
                 
             </section>
 

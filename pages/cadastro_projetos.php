@@ -29,7 +29,7 @@
 
                 <div class="formulario">
 
-                    <form action="../actions/cadastrando_projeto.php" method="POST">
+                    <form action="../actions/cadastrandi_projeto.php" method="POST">
 
                         <select name="pedido" required>
 
@@ -60,9 +60,9 @@
                             <option value=""> C </option>
 
                         </select>
-
-                        <input type="date" name="inicio" required>
-                        <input type="date"  name="previsao" required>
+                        
+                        <input type="date" placeholder="Início" name="inicio" required>
+                        <input type="date" placeholder="Previsão" name="previsao" required>
     
 
                         <div class="botoes">
