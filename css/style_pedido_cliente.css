@@ -4,28 +4,30 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-main .login {
+main .pedido {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
-main .login .titulo {
+main .pedido .titulo {
     width: 40%;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-main .login .formulario .subtitulo {
-    width: 45%;
+
+main .pedido .frase {
+    width: 46%;
+    height: 3vh;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
 }
-
 p {
     font-size: 0.7rem;
 }
@@ -37,53 +39,42 @@ h1 {
 }
 
 
-main .login .formulario {
+main .pedido .formulario {
     width: 40%;
     height: 15vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
-
-main .login .formulario form {
-    width: 50%;
+main .pedido .formulario form {
+    width: 48%;
     height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-main .login .formulario form input {
-    width: 90%;
+main .pedido .formulario input {
+    width: 95%;
     margin-top: 2px;
 }
-main .login .formulario .botao {
-    width: 50%;
+
+main .pedido .formulario form .botoes {
+    width: 96%;
     height: 5vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-main .login .formulario a {
-    text-decoration: none;
-    color: #333333;
-    font-size: 0.7rem;
-}
-main .login .formulario a:hover {
-    text-decoration: underline;
-    color:  #7BC043;
-}
-
-main .login .logos {
+main .pedido .logos {
     width: 20%;
     height: 15vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-main .login .logos img {
+main .pedido .logos img {
     height: 10vh;
     border-radius: 100%;
 }
