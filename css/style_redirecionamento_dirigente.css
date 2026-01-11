@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .titulo {
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+p {
+    font-size: 0.7rem;
+}
+span {
+    color: #7BC043;
+}
+h1 {
+    color: #333333;
+}
+h2 {
+    color: white;
+}
+
+
+main .opcoes {
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .opcoes .card {
+    background-color:#333333;
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+main .opcoes .card .acoes {
+    width: 70%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+main .opcoes .card .acoes a {
+    background-color: white;
+    text-decoration: none;
+    color:#333333;
+}
+main .opcoes .card .acoes a:hover {
+    text-decoration:underline;
+    color:#7BC043;
+}
+
+main .logos {
+    width: 20%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main  .logos img {
+    height: 10vh;
+    border-radius: 100%;
+}
+
+@media (max-width: 1340px) {
+    main .opcoes .card .acoes {
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .opcoes .card {
+        height: 20vh;
+    }
+
+    main .logos {
+        width: 30%;
+    }
+
+
+}

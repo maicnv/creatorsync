@@ -83,7 +83,7 @@ main .cadastro .formulario .botoes button {
 }
 
 main .cadastro .logos {
-    width: 40%;
+    width: 50%;
     height: 30vh;
     display: flex;
     justify-content: space-evenly;
