@@ -35,7 +35,7 @@ h2 {
 
 
 main .opcoes {
-    width: 70%;
+    width: 95%;
     height: 30vh;
     display: flex;
     justify-content: space-around;
@@ -83,7 +83,7 @@ main  .logos img {
 
 @media (max-width: 1340px) {
     main .opcoes .card .acoes {
-        height: 10vh;
+        height: 20vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
