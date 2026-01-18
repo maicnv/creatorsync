@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .conteudo-header {
+    width: 95%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span {
+    color: #7BC043;
+}
+.conteudo-header h1 {
+    color: #333333;
+}
+
+header .conteudo-header .opcoes {
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .conteudo-header .opcoes ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+header .conteudo-header .opcoes ul a {
+    text-decoration: none;
+    color: #333333;
+}
+header .conteudo-header .opcoes ul a:hover {
+    text-decoration: underline;
+    color: #7BC043;
+}
+main .section-i {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+main .section-i .conteudo-section-i {
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+main .section-i .conteudo-section-i .frase {
+    width: 95%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.frase h1 {
+    color: #333333;
+}
