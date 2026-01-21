@@ -10,7 +10,7 @@ main {
 }
 main .pedido {
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +45,7 @@ h1 {
 
 main .pedido .formulario {
     width: 40%;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -53,13 +53,17 @@ main .pedido .formulario {
 }
 main .pedido .formulario form {
     width: 48%;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 main .pedido .formulario input {
     width: 95%;
+    margin-top: 2px;
+}
+main .pedido .formulario select {
+    width: 96%;
     margin-top: 2px;
 }
 
