@@ -29,7 +29,7 @@
                         <p><i> projetos. </i></p>
                     </div>
 
-                    <form action="../actions/cadastrandi_projeto.php" method="POST">
+                    <form action="../actions/cadastrando_projeto.php" method="POST">
                         <div class="dados-primarios">
                           <select name="pedido" required>
 
