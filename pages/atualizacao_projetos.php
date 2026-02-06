@@ -55,7 +55,7 @@
 
                             </select>
 
-                            <select name="Roteiro" required>
+                            <select name="roteiro" required>
                                 <option value="" selected disabled hidden> Roteiro </option>
                                 <option value="desenvolvendo"> Desenvolvendo </option>
                                 <option value="analisando"> Analisando </option>
