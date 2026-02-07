@@ -24,7 +24,7 @@
         echo "Nome deve conter apenas letras";
         exit;
     }
-    $nome = strtolower($nome);
+    $nome = mb_strtolower($nome, 'UTF-8');
 
 
     // validando 'email'

@@ -24,7 +24,7 @@
         echo "Nome deve conter apenas letras";
         exit;
     }
-    $nome = strtolower($nome);
+    $nome = mb_strtolower($nome, 'UTF-8');
 
 
     // validando telefone
@@ -78,9 +78,13 @@
         echo "As senhas não conferem";
         exit;
     }
+
+    // criptografando a senha
+    $senha_hash = password_hash($senha, PASSWORD_DEFAULT);
+
     
     // testando
-    $dados = [$nome, $nicho, $telefone, $email, $senha, $confirmar_senha];
+    $dados = [$nome, $nicho, $telefone, $email, $senha_hash];
     var_dump($dados);
 
 

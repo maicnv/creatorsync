@@ -16,6 +16,6 @@
         echo "Usuairo deve conter apenas letras";
         exit;
     }
-    $usuario = strtolower($usuario);
+    $usuario = mb_strtolower($usuario, 'UTF-8');
 
 ?>
